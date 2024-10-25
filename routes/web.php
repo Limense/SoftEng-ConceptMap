@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ModuloPrincipalController;
+use App\Http\Controllers\ModuloUno\ModuloUnoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/inicio', [ModuloPrincipalController::class, 'index'])->name('inicio');
+
+Route::get('inicio/modulo-1', [ModuloUnoController::class, 'index'])->name('inicio.modulo-1');
+Route::get('inicio/modulo-1/tema-1', [App\Http\Controllers\ModuloUno\TemaUnoController::class, 'index'])->name('inicio.modulo-1.tema-1');
