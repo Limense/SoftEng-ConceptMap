@@ -1,4 +1,8 @@
 <main>
-    @include('home.FirstSection')
-    @include('home.SecondSection')
+    <div>
+        @include('home.FirstSection')
+    </div>
+    <div>
+        @include('home.SecondSection')
+    </div>
 </main>
