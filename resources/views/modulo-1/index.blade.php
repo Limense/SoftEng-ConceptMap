@@ -11,7 +11,7 @@
     <h1>Página principal</h1>
 
     @foreach($temas as $tema)
-        <a href="{{ route('inicio.modulo-1.tema-1') }}">{{ $tema->titulo }}</a><br>
+    <a href="{{ route('inicio.modulo-1.tema-1') }}">{{ $tema->titulo }}</a><br>
     @endforeach
 </body>
 
