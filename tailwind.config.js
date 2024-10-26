@@ -27,6 +27,9 @@ export default {
                 grey: {
                     primary: "#f4f4f4",
                 },
+                blue: {
+                    primary: "#212529",
+                },
             },
             fontFamily: {
                 "press-start": ['"Press Start 2P"', "cursive"],
