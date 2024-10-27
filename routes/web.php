@@ -29,6 +29,16 @@ Route::get('/login', function () {
     return view('login.index');
 });
 
+// Ruta para cargar register
+Route::get('/register', function () {
+    return view('register.index');
+});
+
+// Ruta para cargar ranking
+Route::get('/ranking', function () {
+    return view('ranking.index');
+});
+
 // Ruta para cargar el módulo 1
 Route::get('/modulo-1', function () {
     return view('modulo-1.index');

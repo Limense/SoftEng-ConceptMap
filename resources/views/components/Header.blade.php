@@ -25,16 +25,18 @@
 
             <div
                 class="h-full text-white font-mulish font-bold flex items-center border-b-2 border-transparent hover:text-skyblue-primary hover:border-skyblue-primary hover:border-b-2">
-                <a href="">
+                <a href="{{ url('/ranking') }}">
                     <button class="py-2 px-3 rounded-md">Ranking</button>
                 </a>
             </div>
 
-            <x-button href="{{ url('/login') }}" bgColor="bg-red-primary" textColor="text-white">
+            <x-button href="{{ url('/login') }}" bgColor="bg-yellow-primary" textColor="text-black" class="edu-button"
+                beforeColor="yellow-button">
                 Iniciar Sesión
             </x-button>
 
-            <x-button href="{{ url('/login') }}" bgColor="bg-red-primary" textColor="text-white">
+            <x-button href="{{ url('/register') }}" bgColor="bg-red-primary" textColor="text-white"
+                beforeColor="red-button">
                 Registrate
             </x-button>
 

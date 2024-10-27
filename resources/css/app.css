@@ -7,16 +7,53 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Colores para sombra de botones */
 @layer utilities {
-    .edu-button::before {
+    .black-button::before {
         content: "";
         position: absolute;
         width: 100%;
         height: 0;
-        bottom: -10px; /* Distancia entre la sombra y el botón */
+        bottom: -10px; 
         left: 0;
-        border: 5px solid transparent; /* Tamaño de la sombra */
-        border-top-color: #BB0116; /* Color de la sombra */
+        border: 5px solid transparent; 
+        border-top-color: black; 
+        transition: border 0.25s ease;
+    }
+
+    .red-button::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 0;
+        bottom: -10px; 
+        left: 0;
+        border: 5px solid transparent; 
+        border-top-color: #BB0116; 
+        transition: border 0.25s ease;
+    }
+
+    .yellow-button::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 0;
+        bottom: -10px; 
+        left: 0;
+        border: 5px solid transparent; 
+        border-top-color: #CA8A04; 
+        transition: border 0.25s ease;
+    }
+
+    .sky-button::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 0;
+        bottom: -10px; 
+        left: 0;
+        border: 5px solid transparent; 
+        border-top-color: #006bb3; 
         transition: border 0.25s ease;
     }
 }

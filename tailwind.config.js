@@ -19,7 +19,8 @@ export default {
                     secondary: "#CA8A04",
                 },
                 skyblue: {
-                    primary: "#2cbaff",
+                    primary: "#209cee",
+                    secondary: "#006bb3",
                 },
                 red: {
                     primary: "#e11b1b",
