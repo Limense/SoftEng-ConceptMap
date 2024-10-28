@@ -3,6 +3,7 @@
 use App\Http\Controllers\ModuloPrincipalController;
 use App\Http\Controllers\ModuloUno\ModuloUnoController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ChatbotController;
 
 /*
 |--------------------------------------------------------------------------
@@ -58,3 +59,11 @@ Route::get('/modulo-1', function () {
 Route::get('/modulo-1/tema-01', function () {
     return view('modulo-1.tema-01.index');
 })->name('modulo1.tema1');
+
+// Ruta para acceder al chatbot a la api de flask
+Route::post('/chatbot', [ChatbotController::class, 'handle']);
+
+// Ruta para la vista:
+Route::get('/chatbot', [ChatbotController::class, 'index'])->name('chatbot.index');
+Route::post('/chatbot/send', [ChatbotController::class, 'handle'])->name('chatbot.handle');
+Route::post('/chatbot/clear', [ChatbotController::class, 'clearHistory'])->name('chatbot.clear');

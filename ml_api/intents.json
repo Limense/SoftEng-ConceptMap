@@ -1,0 +1,191 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "Hola", "Buenos días", "Buenas tardes", "Buenas noches",
+                "Hey", "Qué tal", "Saludos", "Hola, ¿cómo estás?",
+                "Hola, necesito ayuda", "Buen día", "Qué hay",
+                "Cómo va todo", "Estás ahí", "Hola, ¿puedes ayudarme?",
+                "Saludos, busco información sobre ingeniería de software",
+                "Buenas, tengo preguntas de ingeniería de software"
+            ],
+            "responses": [
+                "¡Hola! ¿En qué puedo ayudarte con tus preguntas sobre Ingeniería de Software?",
+                "¡Bienvenido! Estoy aquí para resolver tus dudas en temas de desarrollo, metodologías y herramientas de Ingeniería de Software.",
+                "¡Hola! ¿Tienes alguna pregunta sobre desarrollo de software, arquitectura o pruebas?",
+                "¡Saludos! Soy tu asistente en temas de Ingeniería de Software. ¿En qué puedo ayudarte hoy?",
+                "¡Hola! Estoy aquí para apoyarte en cualquier consulta sobre metodologías, buenas prácticas o desarrollo en Ingeniería de Software."
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "Adiós", "Hasta luego", "Chao", "Nos vemos", "Gracias, eso era todo",
+                "Bye", "Hasta pronto", "Me voy", "Gracias por la ayuda",
+                "Eso es todo por ahora", "Hasta la próxima", "Gracias por tu tiempo",
+                "Me tengo que ir", "Finalizar chat", "Terminar conversación"
+            ],
+            "responses": [
+                "¡Hasta luego! Recuerda que aquí estoy para cualquier pregunta adicional sobre Ingeniería de Software.",
+                "¡Gracias por chatear! Si tienes más consultas, no dudes en regresar.",
+                "¡Adiós! Espero haberte ayudado, ¡hasta la próxima!",
+                "¡Hasta pronto! Vuelve cuando necesites más información.",
+                "¡Que tengas un excelente día! Estoy aquí para futuras consultas sobre Ingeniería de Software."
+            ]
+        },
+        {
+            "tag": "metodologias_agiles",
+            "patterns": [
+                "Qué son las metodologías ágiles", "Explícame Agile", "Cuáles son los principios ágiles",
+                "Beneficios de Agile", "Por qué usar metodologías ágiles",
+                "Diferencia entre ágil y tradicional", "Ventajas de Agile",
+                "Desventajas de metodologías ágiles", "Implementar metodologías ágiles",
+                "Cómo hacer una transición a Agile", "Valores del manifiesto ágil",
+                "Cuáles son las mejores prácticas ágiles", "Escalabilidad en Agile",
+                "Metodologías ágiles más populares", "Cómo empezar con Agile",
+                "Certificaciones ágiles", "Roles en metodologías ágiles",
+                "Herramientas para Agile", "Cuáles son los valores de Agile"
+            ],
+            "responses": [
+                "Las metodologías ágiles son enfoques de desarrollo de software que se basan en el Manifiesto Ágil. Este manifiesto prioriza a las personas y sus interacciones sobre los procesos y herramientas, la entrega de software funcional por encima de documentación extensiva, la colaboración con el cliente más allá de la negociación contractual, y la adaptación al cambio por encima de seguir un plan estricto. Estos principios permiten a los equipos responder a cambios rápidos en los requisitos y mejorar la satisfacción del cliente.",
+                "Agile se centra en ciclos de desarrollo cortos, llamados iteraciones o sprints, donde cada iteración produce una versión funcional del software. Esto permite identificar problemas rápidamente y adaptarse a los cambios en las necesidades del cliente.",
+                "Las metodologías ágiles, como Scrum y Kanban, ayudan a los equipos a organizar su trabajo de manera eficiente. En Scrum, por ejemplo, se organizan roles como el Product Owner, Scrum Master y el equipo de desarrollo, mientras que Kanban se basa en tableros visuales para gestionar el flujo de trabajo.",
+                "La transición a Agile puede ser desafiante, ya que requiere un cambio en la mentalidad y cultura organizacional. Es importante capacitar a los equipos, definir roles claros y establecer herramientas de seguimiento como Jira, Trello o Azure DevOps para apoyar el proceso de adopción.",
+                "Los beneficios de Agile incluyen una mayor satisfacción del cliente, capacidad de respuesta rápida ante cambios, una colaboración más estrecha en el equipo y una mejora continua del proceso. Sin embargo, también presenta desafíos como la necesidad de una cultura organizacional adaptable y compromiso de todo el equipo."
+            ]
+        },
+        {
+            "tag": "scrum",
+            "patterns": [
+                "Qué es Scrum", "Explícame los roles de Scrum", "Qué es un Sprint",
+                "Cuáles son las ceremonias de Scrum", "Qué es un Product Backlog",
+                "Qué es el Daily Scrum", "Qué pasa en la Sprint Planning",
+                "Qué se hace en la Sprint Review", "Qué es la Sprint Retrospective",
+                "Cuáles son las responsabilidades del Scrum Master",
+                "Cuál es el rol del Product Owner", "Cuál es la función del equipo de desarrollo en Scrum",
+                "Qué son las historias de usuario", "Qué es la estimación en Scrum",
+                "Qué es la velocidad del equipo", "Qué significa Definition of Done",
+                "Qué es el Refinamiento del Backlog", "Cómo se hace la escalabilidad en Scrum",
+                "Qué es el Scrum of Scrums", "Cuáles son las métricas en Scrum",
+                "Qué es un Burndown Chart", "Qué es un Sprint Backlog",
+                "Cómo se usa Planning Poker", "Qué hacer con impedimentos en Scrum",
+                "Cuáles son los valores de Scrum"
+            ],
+            "responses": [
+                "Scrum es un marco de trabajo ágil que organiza el desarrollo de software en sprints, ciclos de tiempo fijo de 1 a 4 semanas en los que el equipo entrega incrementos funcionales del producto. Los roles de Scrum incluyen al Product Owner, encargado de la visión del producto; el Scrum Master, quien facilita el proceso; y el equipo de desarrollo, responsable de construir el producto.",
+                "Las ceremonias de Scrum incluyen: 1) Sprint Planning, donde el equipo planifica el trabajo del sprint; 2) Daily Scrum, una reunión de 15 minutos para coordinarse y resolver obstáculos; 3) Sprint Review, una reunión al final del sprint para revisar el trabajo completado; y 4) Sprint Retrospective, donde el equipo reflexiona y mejora el proceso.",
+                "Un Product Backlog es una lista priorizada de todos los requisitos del producto. Los elementos del backlog se seleccionan en la planificación del sprint y se convierten en tareas del Sprint Backlog. Estos requisitos pueden estar detallados en historias de usuario, que describen una funcionalidad desde la perspectiva del usuario final.",
+                "La Definition of Done es un conjunto de criterios que debe cumplir un producto o función para considerarse 'completa'. Esto asegura que cada incremento del producto esté listo para usarse sin trabajo pendiente.",
+                "El Scrum Master ayuda a eliminar impedimentos y protege al equipo de distracciones externas, asegurando que el equipo trabaje de acuerdo con las prácticas de Scrum. También ayuda en la mejora continua del equipo, facilita las reuniones y apoya al Product Owner."
+            ]
+        },
+        {
+            "tag": "uml",
+            "patterns": [
+                "Qué es UML", "Cuáles son los tipos de diagramas UML", "Qué es un diagrama de clases",
+                "Qué es un diagrama de casos de uso", "Qué es un diagrama de secuencia",
+                "Cómo se usa un diagrama de actividades", "Qué es un diagrama de componentes",
+                "Qué es un diagrama de despliegue", "Cómo se usa UML para modelar",
+                "Cuáles son las ventajas de UML", "Qué diferencia hay entre UML y otros lenguajes de modelado",
+                "Herramientas para UML", "Cómo aprender UML", "Uso de UML en el desarrollo ágil",
+                "Mejores prácticas para UML", "Errores comunes al usar UML",
+                "Qué es un diagrama de estado", "Cómo se usa un diagrama de interacción"
+            ],
+            "responses": [
+                "UML (Lenguaje Unificado de Modelado) es un lenguaje de modelado estándar que permite a los desarrolladores y diseñadores visualizar, especificar, construir y documentar sistemas de software. UML es independiente del lenguaje de programación, lo que lo convierte en una herramienta versátil para modelar software.",
+                "Los tipos de diagramas UML se dividen en: 1) Diagramas de estructura, como el diagrama de clases y de componentes, y 2) Diagramas de comportamiento, como el diagrama de casos de uso, de secuencia y de actividades. Estos diagramas ayudan a capturar tanto la estructura como el flujo de un sistema.",
+                "Un diagrama de clases muestra las clases, sus atributos y métodos, y las relaciones entre ellas, representando la estructura estática de un sistema orientado a objetos.",
+                "Un diagrama de casos de uso ilustra las interacciones entre los usuarios (actores) y el sistema, lo cual es útil para capturar y validar requisitos.",
+                "Algunas herramientas populares para UML incluyen Lucidchart, Visual Paradigm y StarUML, que permiten crear y compartir diagramas de manera colaborativa y eficiente."
+            ]
+        },
+         {
+            "tag": "requerimientos_funcionales",
+            "patterns": [
+                "Qué son los requerimientos funcionales",
+                "Explica los requerimientos funcionales",
+                "Cuáles son ejemplos de requerimientos funcionales",
+                "Qué características tienen los requerimientos funcionales",
+                "Cómo se definen los requerimientos funcionales",
+                "Importancia de los requerimientos funcionales",
+                "Qué tipos de requerimientos funcionales existen",
+                "Requerimientos funcionales vs no funcionales"
+            ],
+            "responses": [
+                "Los requerimientos funcionales son las especificaciones que definen qué debe hacer un sistema. Estos describen funciones y características que el software debe tener para satisfacer las necesidades del usuario. Por ejemplo: permitir a los usuarios iniciar sesión, realizar búsquedas, y enviar notificaciones de email. Los requerimientos funcionales suelen documentarse en fases iniciales del proyecto para guiar el desarrollo y asegurar que el sistema cumpla su propósito.",
+                "Los requerimientos funcionales detallan lo que el sistema debe realizar desde la perspectiva del usuario, incluyendo casos de uso y escenarios. Ejemplos comunes son: el sistema debe permitir a los usuarios registrarse, el sistema debe validar la entrada de datos, y debe almacenar información en una base de datos.",
+                "Es importante que los requerimientos funcionales sean específicos, medibles y verificables, para asegurar que el equipo de desarrollo entienda claramente lo que el sistema debe hacer.",
+                "Los requerimientos funcionales son aquellos que definen funciones específicas, tales como: registro de usuarios, autenticación, envío de mensajes, y generación de informes. También pueden describir la lógica de negocio en un software empresarial."
+            ]
+        },
+        {
+            "tag": "requerimientos_no_funcionales",
+            "patterns": [
+                "Qué son los requerimientos no funcionales",
+                "Diferencia entre requerimientos no funcionales y funcionales",
+                "Cuáles son ejemplos de requerimientos no funcionales",
+                "Qué características tienen los requerimientos no funcionales",
+                "Importancia de los requerimientos no funcionales",
+                "Tipos de requerimientos no funcionales",
+                "Cuáles son los requerimientos no funcionales comunes"
+            ],
+            "responses": [
+                "Los requerimientos no funcionales definen cómo debe funcionar el sistema en lugar de lo que hace. Describen aspectos de calidad como rendimiento, seguridad, usabilidad y escalabilidad. Ejemplos incluyen: el sistema debe soportar al menos 1,000 usuarios concurrentes, debe responder en menos de 2 segundos, y debe cumplir con estándares de seguridad como el cifrado de datos.",
+                "A diferencia de los requerimientos funcionales, los no funcionales no describen una función específica, sino que establecen condiciones y restricciones en el sistema. Por ejemplo: velocidad de respuesta, usabilidad, accesibilidad, compatibilidad, y cumplimiento de normativas.",
+                "Los requerimientos no funcionales ayudan a asegurar la calidad del sistema y son esenciales para proporcionar una buena experiencia al usuario. Algunos tipos comunes son: disponibilidad (el sistema debe estar disponible el 99.9% del tiempo), rendimiento (respuesta en menos de 3 segundos), y seguridad (acceso restringido a datos sensibles).",
+                "Algunos ejemplos de requerimientos no funcionales incluyen el tiempo de carga de páginas (menor a 3 segundos), el porcentaje de tiempo en línea (99.5% de disponibilidad), y la facilidad de mantenimiento (modularidad del código para facilitar futuras actualizaciones)."
+            ]
+        },
+        {
+            "tag": "programas_ingenieria_software",
+            "patterns": [
+                "Qué programas necesito para ingeniería de software",
+                "Cuáles son las herramientas de desarrollo para el curso",
+                "Software esencial para ingeniería de software",
+                "Herramientas y programas para aprender ingeniería de software",
+                "Qué programas de desarrollo debo instalar",
+                "Herramientas comunes en ingeniería de software"
+            ],
+            "responses": [
+                "Algunos programas esenciales para un curso de Ingeniería de Software incluyen:\n\n1) **IDE (Entorno de Desarrollo Integrado)**: como Visual Studio Code, IntelliJ IDEA, PyCharm y Eclipse, que ofrecen herramientas para escribir, depurar y compilar código.\n\n2) **Control de versiones**: Git es fundamental, junto con plataformas como GitHub, GitLab o Bitbucket para gestionar versiones y colaborar en el desarrollo de software.\n\n3) **Gestión de proyectos**: Jira, Trello o Azure DevOps ayudan a organizar tareas y colaborar en equipo, sobre todo en metodologías ágiles.\n\n4) **Herramientas de modelado**: Lucidchart, StarUML y Visual Paradigm son útiles para crear diagramas UML, de flujo y de arquitectura.\n\n5) **Base de datos**: como MySQL, PostgreSQL, y MongoDB para almacenar y gestionar datos.\n\n6) **Virtualización y contenedores**: Docker y Kubernetes para el despliegue y administración de aplicaciones en entornos de desarrollo y producción.",
+                "Para el desarrollo de software, algunos programas necesarios son:\n\n- **Visual Studio Code**: un IDE versátil para muchos lenguajes.\n- **Git y GitHub**: para control de versiones y colaboración.\n- **Lucidchart o Draw.io**: para modelado y diagramas UML.\n- **Jira o Trello**: para la gestión de tareas y metodologías ágiles.\n- **MySQL** y **MongoDB**: bases de datos para almacenamiento de datos estructurados y no estructurados respectivamente.\n- **Docker**: para crear contenedores y gestionar el despliegue de software.",
+                "En ingeniería de software, algunas de las herramientas esenciales son:\n\n1) **IDE**: Visual Studio Code y PyCharm para el desarrollo.\n2) **Git**: para control de versiones y colaboración.\n3) **Lucidchart** o **Visual Paradigm**: para diagramas UML y documentación.\n4) **Jira** o **Trello**: para la gestión de tareas y colaboración ágil.\n5) **Docker** y **Kubernetes**: para contenedores y administración de infraestructura.",
+                "Algunas herramientas comunes en Ingeniería de Software incluyen entornos de desarrollo (IDE) como Visual Studio Code, PyCharm o IntelliJ, Git para el control de versiones, Lucidchart o StarUML para diagramas UML, y Docker para la virtualización y despliegue de software en contenedores."
+            ]
+        },
+        {
+            "tag": "lenguajes_programacion",
+            "patterns": [
+                "Qué lenguajes de programación se usan en ingeniería de software",
+                "Lenguajes populares para desarrollo de software",
+                "Lenguajes de programación más usados",
+                "Cuáles son los lenguajes de programación más comunes",
+                "Mejores lenguajes de programación para ingeniería de software",
+                "Lenguajes de programación recomendados"
+            ],
+            "responses": [
+                "Algunos de los lenguajes de programación más comunes en Ingeniería de Software son:\n\n1) **Python**: ampliamente utilizado por su facilidad de aprendizaje y uso en diversas áreas, como desarrollo web, automatización y machine learning.\n\n2) **Java**: muy popular en grandes empresas y aplicaciones de Android.\n\n3) **JavaScript**: usado en desarrollo web, tanto en el frontend (con frameworks como React) como en el backend (con Node.js).\n\n4) **C#**: muy usado en desarrollo de aplicaciones de escritorio y juegos.\n\n5) **C++**: ideal para aplicaciones de alto rendimiento como videojuegos y sistemas embebidos.\n\n6) **Ruby**: con el framework Rails, es popular para desarrollo web rápido y efectivo.",
+                "En ingeniería de software, los lenguajes más usados son Python, Java, y JavaScript. Python es fácil de aprender y versátil, Java es robusto y se usa en grandes sistemas empresariales, y JavaScript es esencial para el desarrollo web, tanto en frontend como en backend.",
+                "Python, Java, JavaScript, C++, y C# son lenguajes populares en ingeniería de software. Cada uno tiene ventajas específicas: Python es excelente para iniciarse y es versátil, Java es muy utilizado en la industria, JavaScript es imprescindible en el desarrollo web, y C++ es ideal para aplicaciones de alto rendimiento.",
+                "Los lenguajes de programación más recomendados en Ingeniería de Software son Python para desarrollo rápido y versátil, Java para aplicaciones empresariales, JavaScript para web, y C++ para aplicaciones de alto rendimiento."
+            ]
+        },
+        {
+            "tag": "tecnologias_ingenieria_software",
+            "patterns": [
+                "Cuáles son las tecnologías que se usan en ingeniería de software",
+                "Qué tecnologías debo aprender para ingeniería de software",
+                "Tecnologías populares en el desarrollo de software",
+                "Qué debo aprender para ser ingeniero de software",
+                "Herramientas y tecnologías para desarrollo de software"
+            ],
+            "responses": [
+                "En ingeniería de software, algunas tecnologías clave incluyen:\n\n1) **Control de versiones con Git**: para colaboración y manejo de versiones.\n\n2) **Metodologías ágiles**: como Scrum y Kanban para la organización de proyectos.\n\n3) **Virtualización y contenedores**: Docker y Kubernetes para gestionar aplicaciones en entornos aislados.\n\n4) **Bases de datos**: SQL (MySQL, PostgreSQL) y NoSQL (MongoDB) para gestión de datos.\n\n5) **Frameworks web**: React y Angular para frontend, y Node.js y Django para backend.\n\n6) **Pruebas automatizadas**: con herramientas como Selenium para testing de aplicaciones.",
+                "Las tecnologías más importantes en ingeniería de software son:\n\n- **Git y GitHub** para control de versiones y colaboración.\n- **Metodologías ágiles** como Scrum para el desarrollo colaborativo.\n- **Docker y Kubernetes** para despliegue de aplicaciones.\n- **Bases de datos** como MySQL y MongoDB para gestión de datos.\n- **React, Angular y Node.js** para desarrollo web.",
+                "En ingeniería de software es fundamental conocer Git para el control de versiones, metodologías ágiles como Scrum para la gestión de proyectos, Docker para el despliegue de software en contenedores, y frameworks de frontend (React, Angular) y backend (Node.js, Django) para desarrollo de aplicaciones.",
+                "Algunas tecnologías clave para Ingeniería de Software incluyen Git para control de versiones, Docker para contenedores, bases de datos SQL y NoSQL, y metodologías ágiles como Scrum y Kanban para una organización eficiente del equipo de trabajo."
+            ]
+        }
+    ]
+}

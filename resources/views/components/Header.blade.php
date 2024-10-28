@@ -32,6 +32,13 @@
 
             <div
                 class="h-full text-white font-mulish font-bold flex items-center border-b-2 border-transparent hover:text-skyblue-primary hover:border-skyblue-primary hover:border-b-2">
+                <a href="{{ route('chatbot.index') }}">
+                    <button class="py-2 px-3 rounded-md">Chatbot</button>
+                </a>
+            </div>
+
+            <div
+                class="h-full text-white font-mulish font-bold flex items-center border-b-2 border-transparent hover:text-skyblue-primary hover:border-skyblue-primary hover:border-b-2">
                 <a href="{{ url('/profile') }}">
                     <button class="py-2 px-3 rounded-md">Mi Perfil</button>
                 </a>

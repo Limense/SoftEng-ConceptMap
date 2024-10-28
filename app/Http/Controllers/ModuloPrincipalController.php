@@ -10,7 +10,7 @@ class ModuloPrincipalController extends Controller
 {
     public function index()
     {
-        $modulos = DB::select('select id, categoria, modulo from tbl_categoria_temas');
+        $modulos = DB::select('select id, categoria, estado from tbl_categoria_temas');
 
         return view('inicio', ['modulos'=> $modulos]);
       
