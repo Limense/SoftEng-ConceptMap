@@ -4,17 +4,56 @@
             Ingeniería de Software
         </h2>
 
-        <div class="grid pt-[64px] w-full">
+        <div class="grid grid-cols-2 gap-4 pt-[64px] w-full">
             <a href="{{ url('/modulo-1') }}">
-                <article class="relative h-full min-h-[250px] rounded-[8px] bg-red-500 mx-auto max-w-[600px]">
-                    <div class="flex flex-col absolute right-[1rem]">
-                        <span class="text-[96px] font-press-start text-white">01</span>
+                <article class="flex items-center relative rounded-[8px] bg-red-500 p-4">
+                    <img src="{{ asset('images/torchic.png') }}" alt="Descripción de la imagen"
+                        class="w-[10rem] h-auto">
+                    <div class="flex flex-col justify-center ml-4">
+                        <span class="text-[80px] font-press-start text-white">01</span>
                         <span class="relative rounded-full bg-black font-mulish px-3 text-center text-white">
-                            Fácil
+                            Módulo
                         </span>
                     </div>
-                    <img src="{{ asset('images/1 (1).png') }}" alt="Descripción de la imagen"
-                        class="absolute left-[80px] w-[16rem]">
+                </article>
+            </a>
+
+            <a href="{{ url('/modulo-1') }}">
+                <article class="flex items-center relative rounded-[8px] bg-red-500 p-4">
+                    <img src="{{ asset('images/combusken.png') }}" alt="Descripción de la imagen"
+                        class="w-[10rem] h-auto">
+                    <div class="flex flex-col justify-center ml-4">
+                        <span class="text-[80px] font-press-start text-white">02</span>
+                        <span class="relative rounded-full bg-black font-mulish px-3 text-center text-white">
+                            Módulo
+                        </span>
+                    </div>
+                </article>
+            </a>
+
+            <a href="{{ url('/modulo-1') }}">
+                <article class="flex items-center relative rounded-[8px] bg-red-500 p-4">
+                    <img src="{{ asset('images/blaziken.png') }}" alt="Descripción de la imagen"
+                        class="w-[10rem] h-[160px]">
+                    <div class="flex flex-col justify-center ml-4">
+                        <span class="text-[80px] font-press-start text-white">03</span>
+                        <span class="relative rounded-full bg-black font-mulish px-3 text-center text-white">
+                            Módulo
+                        </span>
+                    </div>
+                </article>
+            </a>
+
+            <a href="{{ url('/modulo-1') }}">
+                <article class="flex items-center relative rounded-[8px] bg-red-500 p-4">
+                    <img src="{{ asset('images/mega_blaziken.png') }}" alt="Descripción de la imagen"
+                        class="w-[10rem] h-auto">
+                    <div class="flex flex-col justify-center ml-4">
+                        <span class="text-[80px] font-press-start text-white">04</span>
+                        <span class="relative rounded-full bg-black font-mulish px-3 text-center text-white">
+                            Módulo
+                        </span>
+                    </div>
                 </article>
             </a>
         </div>

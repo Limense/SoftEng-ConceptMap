@@ -39,6 +39,16 @@ Route::get('/ranking', function () {
     return view('ranking.index');
 });
 
+// Ruta para cargar profile
+Route::get('/profile', function () {
+    return view('profile.index');
+});
+
+// Ruta para cargar edit profile
+Route::get('/profile/account', function () {
+    return view('profile.account.index');
+})->name('profile.account');
+
 // Ruta para cargar el módulo 1
 Route::get('/modulo-1', function () {
     return view('modulo-1.index');

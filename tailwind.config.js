@@ -13,7 +13,11 @@ export default {
 
             colors: {
                 primary: "#0f1524",
-                secondary: "#2e2c3d",
+                secondary: "#25314b",
+                profile: {
+                    primary: "#1b2238",
+                    secondary: "#f7f7f7",
+                },
                 yellow: {
                     primary: "#FACC15",
                     secondary: "#CA8A04",

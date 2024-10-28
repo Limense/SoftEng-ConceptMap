@@ -2,7 +2,7 @@
     <div>
         @include('home.FirstSection')
     </div>
-    <div>
+    <!-- <div>
         @include('home.SecondSection')
-    </div>
+    </div> -->
 </main>

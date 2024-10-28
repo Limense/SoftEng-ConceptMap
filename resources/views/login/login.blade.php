@@ -1,10 +1,10 @@
 <section style="background-image: url('/images/fondo_login.png');"
     class="flex flex-col items-center text-center p-10 sm:p-20 bg-cover bg-center min-h-[calc(100vh-60px)]">
-    <div class="relative w-[30rem] text-[12px] bg-white border-4 border-black py-[1rem] px-[1.5rem] font-mulish">
+    <div class="relative w-[30rem] text-[12px] bg-primary border-4 border-secondary py-[1rem] px-[1.5rem] font-mulish">
         <div class="gap-[1.5rem] flex w-full items-center my-[0.5rem]">
             <img src="{{ asset('images/charmander.png') }}" alt="Descripción de la imagen"
                 class="block max-w-full w-[30%]">
-            <p class="text-[14px] font-press-start">¡Inicia sesión para guardar tu progreso!</p>
+            <p class="text-[14px] font-press-start text-white">¡Inicia sesión para guardar tu progreso!</p>
         </div>
 
         <div class="flip-container">
@@ -12,19 +12,19 @@
                 <!-- Formulario de inicio de sesión -->
                 <form id="login-form" class="w-full max-w-md mx-auto pt-5">
                     <div class="mb-5">
-                        <label for="email" class="block mb-[0.2rem] text-sm font-extrabold">
+                        <label for="email" class="block mb-[0.2rem] text-sm font-extrabold text-white">
                             Correo Electrónico
                         </label>
                         <input type="email" id="email"
-                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-black"
+                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary"
                             placeholder="Ingresa tu dirección de correo electrónico" required />
                     </div>
                     <div class="mb-5">
-                        <label for="password" class="block mb-[0.2rem] text-sm font-extrabold">
+                        <label for="password" class="block mb-[0.2rem] text-sm font-extrabold text-white">
                             Contraseña
                         </label>
                         <input type="password" id="password"
-                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-black"
+                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary"
                             placeholder="Ingresa tu contraseña" required />
                     </div>
 
@@ -37,7 +37,7 @@
                             olvidado tu
                             contraseña?</a>
                     </h4>
-                    <h4 class="font-medium text-[14px] pb-5">
+                    <h4 class="font-medium text-[14px] pb-5 text-white">
                         ¿Aún no tienes cuenta? <a href="{{ url('/register') }}"
                             class="text-skyblue-primary">¡Regístrate!</a>
                     </h4>
@@ -46,11 +46,11 @@
                 <!-- Formulario de recuperación de contraseña -->
                 <form id="recover-form" class="w-full max-w-md mx-auto pt-5 hidden">
                     <div class="mb-5">
-                        <label for="recover-email" class="block mb-[0.2rem] text-sm font-extrabold">
+                        <label for="recover-email" class="block mb-[0.2rem] text-sm font-extrabold text-white">
                             Ingresa tu correo electrónico para recuperar la contraseña
                         </label>
                         <input type="email" id="recover-email"
-                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-black"
+                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary"
                             placeholder="Ingresa tu dirección de correo electrónico" required />
                     </div>
                     <x-button href="{{ url('/recover-password') }}" bgColor="bg-skyblue-primary" textColor="text-white"

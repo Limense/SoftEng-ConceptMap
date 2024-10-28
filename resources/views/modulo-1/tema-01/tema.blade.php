@@ -119,6 +119,13 @@
                 </div>
             </div>
         </div>
+        <div class="items-center text-center">
+            <x-button href="{{ url('/modulo-1') }}" bgColor="bg-skyblue-primary" textColor="text-white"
+                beforeColor="sky-button">
+                Ver temas
+            </x-button>
+        </div>
 
     </section>
+
 </section>

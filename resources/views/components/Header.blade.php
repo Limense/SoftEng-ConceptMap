@@ -30,6 +30,13 @@
                 </a>
             </div>
 
+            <div
+                class="h-full text-white font-mulish font-bold flex items-center border-b-2 border-transparent hover:text-skyblue-primary hover:border-skyblue-primary hover:border-b-2">
+                <a href="{{ url('/profile') }}">
+                    <button class="py-2 px-3 rounded-md">Mi Perfil</button>
+                </a>
+            </div>
+
             <x-button href="{{ url('/login') }}" bgColor="bg-yellow-primary" textColor="text-black" class="edu-button"
                 beforeColor="yellow-button">
                 Iniciar Sesión
@@ -40,6 +47,10 @@
                 Registrate
             </x-button>
 
+            <x-button href="#" bgColor="bg-yellow-primary" textColor="text-black" class="edu-button"
+                beforeColor="yellow-button">
+                Cerrar Sesión
+            </x-button>
         </div>
     </div>
 

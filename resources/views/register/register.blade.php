@@ -1,9 +1,9 @@
 <section style="background-image: url('/images/fondo_register.png');"
     class="flex flex-col items-center text-center p-10 sm:p-20 bg-cover bg-center min-h-[calc(100vh-60px)]">
-    <div class="relative w-[30rem] text-[12px] bg-white border-4 border-black py-[1rem] px-[1.5rem] font-mulish">
+    <div class="relative w-[30rem] text-[12px] bg-white border-4 border-secondary py-[1rem] px-[1.5rem] font-mulish">
         <div class="gap-[1.5rem] flex w-full items-center my-[0.5rem]">
             <img src="{{ asset('images/mario.png') }}" alt="Descripción de la imagen" class="block max-w-full w-[18%]">
-            <p class="text-[14px] font-press-start">¡Crea una cuenta para guardar tu progreso!</p>
+            <p class="text-[14px] font-press-start text-primary">¡Crea una cuenta para guardar tu progreso!</p>
         </div>
 
         <div class="flip-container">
@@ -15,7 +15,8 @@
                             <label for="name" class="block mb-[0.2rem] text-sm font-extrabold">
                                 Nombres
                             </label>
-                            <input type="text" id="name" class="w-full px-4 py-2 m-1 border-4 border-solid border-black"
+                            <input type="text" id="name"
+                                class="w-full px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-secondary"
                                 placeholder="Ingresa tus nombres" required />
                         </div>
                         <div class="w-[48%]">
@@ -23,7 +24,7 @@
                                 Apellidos
                             </label>
                             <input type="text" id="surname"
-                                class="w-full px-4 py-2 m-1 border-4 border-solid border-black"
+                                class="w-full px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-secondary"
                                 placeholder="Ingresa tus apellidos" required />
                         </div>
                     </div>
@@ -33,7 +34,7 @@
                             Correo Electrónico
                         </label>
                         <input type="email" id="email"
-                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-black"
+                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-secondary"
                             placeholder="Ingresa tu dirección de correo electrónico" required />
                     </div>
 
@@ -42,7 +43,7 @@
                             Contraseña
                         </label>
                         <input type="password" id="password"
-                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-black"
+                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-secondary"
                             placeholder="Ingresa tu contraseña" required />
                     </div>
                     <div class="mb-5">
@@ -50,12 +51,11 @@
                             Repite Contraseña
                         </label>
                         <input type="password" id="password"
-                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-black"
+                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-secondary"
                             placeholder="Vuelve a ingresar tu contraseña" required />
                     </div>
 
-                    <x-button href="{{ url('/login') }}" bgColor="bg-red-primary" textColor="text-white"
-                        beforeColor="red-button">
+                    <x-button href="#" bgColor="bg-red-primary" textColor="text-white" beforeColor="red-button">
                         Registrar
                     </x-button>
                     <h4 class="font-medium text-[14px] py-5">
