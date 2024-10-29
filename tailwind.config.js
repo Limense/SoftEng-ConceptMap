@@ -35,6 +35,9 @@ export default {
                 blue: {
                     primary: "#212529",
                 },
+                green: {
+                    primary: "#a3e635",
+                },
             },
             fontFamily: {
                 "press-start": ['"Press Start 2P"', "cursive"],

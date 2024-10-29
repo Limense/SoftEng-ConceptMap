@@ -1,7 +1,7 @@
 <section style="background-image: url('/images/fondo_login.png');"
     class="flex flex-col items-center text-center p-10 sm:p-20 bg-cover bg-center min-h-[calc(100vh-60px)]">
     <div class="relative w-[30rem] text-[12px] bg-primary border-4 border-secondary py-[1rem] px-[1.5rem] font-mulish">
-        <div class="gap-[1.5rem] flex w-full items-center my-[0.5rem]">
+        <div class="gap-[1.5rem] flex w-full items-center my-[0.5rem] pb-5">
             <img src="{{ asset('images/charmander.png') }}" alt="Descripción de la imagen"
                 class="block max-w-full w-[30%]">
             <p class="text-[14px] font-press-start text-white">¡Inicia sesión para guardar tu progreso!</p>
@@ -11,7 +11,7 @@
             <div class="flip-card">
                 <!-- Formulario de inicio de sesión -->
                 <form id="login-form" class="w-full max-w-md mx-auto pt-5">
-                    <div class="mb-5">
+                    <div class="mb-10">
                         <label for="email" class="block mb-[0.2rem] text-sm font-extrabold text-white">
                             Correo Electrónico
                         </label>
@@ -19,7 +19,7 @@
                             class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary"
                             placeholder="Ingresa tu dirección de correo electrónico" required />
                     </div>
-                    <div class="mb-5">
+                    <div class="mb-10">
                         <label for="password" class="block mb-[0.2rem] text-sm font-extrabold text-white">
                             Contraseña
                         </label>
