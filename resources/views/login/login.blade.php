@@ -115,3 +115,6 @@ function showLoginForm() {
     }, 500);
 }
 </script>
+
+@vite('resources/js/annyang.js')
+@vite('resources/js/comandos.js')

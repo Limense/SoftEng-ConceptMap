@@ -194,5 +194,8 @@
             scrollToBottom();
         });
     </script>
+    
 </body>
+@vite('resources/js/annyang.js')
+@vite('resources/js/comandos.js')
 </html>
