@@ -15,6 +15,9 @@
     </main>
 
     @vite('resources/js/app.js')
+    @vite('resources/js/annyang.js')
+    @vite('resources/js/comandos.js')
+    @vite('resources/js/comandos-m1.js')
 </body>
 
 </html>
