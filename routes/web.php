@@ -60,10 +60,18 @@ Route::get('/modulo-1/tema-01', function () {
     return view('modulo-1.tema-01.index');
 })->name('modulo1.tema1');
 
-// Ruta para acceder al chatbot a la api de flask
-Route::post('/chatbot', [ChatbotController::class, 'handle']);
 
-// Ruta para la vista:
-Route::get('/chatbot', [ChatbotController::class, 'index'])->name('chatbot.index');
-Route::post('/chatbot/send', [ChatbotController::class, 'handle'])->name('chatbot.handle');
-Route::post('/chatbot/clear', [ChatbotController::class, 'clearHistory'])->name('chatbot.clear');
+
+
+// Rutas para el chatbot - Prefix para agrupar rutas, mantener el codigo legible
+Route::prefix('chatbot')->group(function () {
+    //Ruta para cargar la vista del chatbot (GET).
+    Route::get('/', function () {
+        return view('chatbot.index'); 
+    })->name('chatbot.index');
+
+    // Ruta para enviar preguntas al chatbot y recibir respuestas (POST).
+    Route::post('/send', [ChatbotController::class, 'handle'])->name('chatbot.handle');
+    // Ruta para limpiar el historial de mensajes en la interfaz del chatbot (POST).
+    Route::post('/clear', [ChatbotController::class, 'clearHistory'])->name('chatbot.clear');
+});
