@@ -8,7 +8,7 @@
     @vite('resources/css/app.css')
 </head>
 
-<body class="bg-gray-100 font-sans text-gray-900">
+<body class="bg-primary font-sans text-gray-900">
     @include('components.header')
     <main>
         @include('modulo-1.tema-01.tema')
