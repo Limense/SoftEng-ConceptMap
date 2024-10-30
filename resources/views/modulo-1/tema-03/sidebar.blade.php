@@ -1,4 +1,4 @@
-<div class="bg-skyblue-primary pl-[10px] rounded-[10px] pr-0 max-w-[500px] mx-auto mb-4">
+<div class="bg-secondary pl-[10px] rounded-[10px] pr-0 max-w-[500px] mx-auto mb-4">
     <div class="h-full bg-profile-primary border-[2px] border-secondary rounded-[10px] pt-4 pl-2 pb-2 pr-0">
         <div class="flex flex-col">
             <div class="flex items-center px-[.5rem] my-10">
