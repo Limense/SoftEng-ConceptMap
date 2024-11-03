@@ -68,6 +68,17 @@
         border-top-color: #4d7c0f; 
         transition: border 0.25s ease;
     }
+    .white-button::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 0;
+        bottom: -10px; 
+        left: 0;
+        border: 5px solid transparent; 
+        border-top-color: #adafbc; 
+        transition: border 0.25s ease;
+    }
 }
 
 

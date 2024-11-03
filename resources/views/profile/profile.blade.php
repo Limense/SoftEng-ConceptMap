@@ -45,10 +45,6 @@
                         </div>
                         <div class="flex flex-col gap-[5px] text-[13px] font-medium font-mulish">
                             <p class="flex gap-[7px]">
-                                <img src="{{ asset('images/location.svg') }}" alt="" class="">
-                                <span>Perú</span>
-                            </p>
-                            <p class="flex gap-[7px]">
                                 <img src="{{ asset('images/cap.svg') }}" alt="" class="">
                                 <span> Universidad Nacional de Cañete</span>
                             </p>
