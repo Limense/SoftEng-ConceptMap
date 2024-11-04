@@ -15,8 +15,6 @@
 
             <!-- Lado derecho -->
             <div class="basis-[75%] max-w-[75%] relative w-full px-[15px]">
-                @include('modulo-1.tema-01.introduccion')
-
                 @include('modulo-1.tema-01.unidad')
 
                 @include('modulo-1.tema-01.evaluacion')
@@ -27,31 +25,19 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const btnIntroduccion = document.getElementById('btn-introduccion');
     const btnUnidad = document.getElementById('btn-unidad');
     const btnContenidoAdicional = document.getElementById('btn-contenido-adicional');
-    const contentIntroduccion = document.getElementById('content-introduccion');
     const contentUnidad = document.getElementById('content-unidad');
     const contentAdicional = document.getElementById('content-adicional');
 
-    // Inicialmente, muestra el contenido de introducción y oculta el de unidad y contenido adicional
-    contentIntroduccion.classList.remove('hidden');
-    contentUnidad.classList.add('hidden');
+    // Inicialmente, muestra el contenido de unidad y oculta el de contenido adicional
+    contentUnidad.classList.remove('hidden');
     contentAdicional.classList.add('hidden');
-
-    // Agregar evento click para el botón de introducción
-    btnIntroduccion.addEventListener('click', function(event) {
-        event.preventDefault();
-        contentIntroduccion.classList.remove('hidden');
-        contentUnidad.classList.add('hidden');
-        contentAdicional.classList.add('hidden');
-    });
 
     // Agregar evento click para el botón de unidad
     btnUnidad.addEventListener('click', function(event) {
         event.preventDefault();
         contentUnidad.classList.remove('hidden');
-        contentIntroduccion.classList.add('hidden');
         contentAdicional.classList.add('hidden');
     });
 
@@ -59,7 +45,6 @@ document.addEventListener('DOMContentLoaded', function() {
     btnContenidoAdicional.addEventListener('click', function(event) {
         event.preventDefault();
         contentAdicional.classList.remove('hidden');
-        contentIntroduccion.classList.add('hidden');
         contentUnidad.classList.add('hidden');
     });
 });

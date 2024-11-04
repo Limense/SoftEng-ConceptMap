@@ -16,7 +16,7 @@
                             Correo Electrónico
                         </label>
                         <input type="email" id="email"
-                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary"
+                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary text-white"
                             placeholder="Ingresa tu dirección de correo electrónico" required />
                     </div>
                     <div class="mb-10">
@@ -24,7 +24,7 @@
                             Contraseña
                         </label>
                         <input type="password" id="password"
-                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary"
+                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary text-white"
                             placeholder="Ingresa tu contraseña" required />
                     </div>
 
@@ -50,7 +50,7 @@
                             Ingresa tu correo electrónico para recuperar la contraseña
                         </label>
                         <input type="email" id="recover-email"
-                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary"
+                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary text-white"
                             placeholder="Ingresa tu dirección de correo electrónico" required />
                     </div>
                     <x-button href="{{ url('/recover-password') }}" bgColor="bg-skyblue-primary" textColor="text-white"

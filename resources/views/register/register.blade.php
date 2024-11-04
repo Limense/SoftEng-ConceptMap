@@ -16,7 +16,7 @@
                                 Nombres
                             </label>
                             <input type="text" id="name"
-                                class="w-full px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary"
+                                class="w-full px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary text-white"
                                 placeholder="Ingresa tus nombres" required />
                         </div>
                         <div class="w-[48%]">
@@ -24,7 +24,7 @@
                                 Apellidos
                             </label>
                             <input type="text" id="surname"
-                                class="w-full px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary"
+                                class="w-full px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary text-white"
                                 placeholder="Ingresa tus apellidos" required />
                         </div>
                     </div>
@@ -34,7 +34,7 @@
                             Correo Electrónico
                         </label>
                         <input type="email" id="email"
-                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary"
+                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary text-white"
                             placeholder="Ingresa tu dirección de correo electrónico" required />
                     </div>
 
@@ -43,7 +43,7 @@
                             Contraseña
                         </label>
                         <input type="password" id="password"
-                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary"
+                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary text-white"
                             placeholder="Ingresa tu contraseña" required />
                     </div>
                     <div class="mb-5">
@@ -51,7 +51,7 @@
                             Repite Contraseña
                         </label>
                         <input type="password" id="password"
-                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary"
+                            class="w-[calc(100%-8px)] px-4 py-2 m-1 border-4 border-solid border-secondary bg-profile-primary text-white"
                             placeholder="Vuelve a ingresar tu contraseña" required />
                     </div>
 

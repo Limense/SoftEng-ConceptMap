@@ -31,7 +31,7 @@
                         </label>
                         <div class="relative mb-6">
                             <input type="password" name="password" id="password"
-                                class="w-full py-2 pr-10 pl-4 text-sm border-4 border-solid border-white bg-profile-primary rounded"
+                                class="w-full py-2 pr-10 pl-4 text-sm border-2 border-solid border-white bg-profile-primary rounded"
                                 placeholder="Ingresa contraseña segura"
                                 x-bind:type="showPassword ? 'text' : 'password'">
                             <button type="button" @click="showPassword = !showPassword"
@@ -57,7 +57,7 @@
                         </label>
                         <div class="relative mb-10">
                             <input type="password" name="confirm-password" id="confirm-password"
-                                class="w-full py-2 pr-10 pl-4 text-sm border-4 border-solid border-white bg-profile-primary rounded"
+                                class="w-full py-2 pr-10 pl-4 text-sm border-2 border-solid border-white bg-profile-primary rounded"
                                 placeholder="Ingresa otra vez tu contraseña segura"
                                 x-bind:type="showConfirmPassword ? 'text' : 'password'">
                             <button type="button" @click="showConfirmPassword = !showConfirmPassword"

@@ -3,6 +3,7 @@
 use App\Http\Controllers\ModuloPrincipalController;
 use App\Http\Controllers\ModuloUno\ModuloUnoController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DownloadController;
 use App\Http\Controllers\ChatbotController;
 
 /*
@@ -50,6 +51,9 @@ Route::get('/profile/account', function () {
     return view('profile.account.index');
 })->name('profile.account');
 
+//Ruta para comprimir los archivos para descargar
+Route::get('/download-folder/{folder}', [DownloadController::class, 'downloadFolder'])->name('download-folder');
+
 // Ruta para cargar el módulo 1
 Route::get('/modulo-1', function () {
     return view('modulo-1.index');
@@ -60,7 +64,10 @@ Route::get('/modulo-1/tema-01', function () {
     return view('modulo-1.tema-01.index');
 })->name('modulo1.tema1');
 
-
+// Ruta para cargar el tema 02 dentro del módulo 1
+Route::get('/modulo-1/tema-02', function () {
+    return view('modulo-1.tema-02.index');
+})->name('modulo1.tema2');
 
 
 // Rutas para el chatbot - Prefix para agrupar rutas, mantener el codigo legible

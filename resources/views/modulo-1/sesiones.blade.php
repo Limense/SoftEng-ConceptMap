@@ -6,7 +6,7 @@
                 class="flex flex-col pt-[30px] min-h-[250px] border-[3px] border-secondary bg-profile-primary text-white w-full rounded-[25px] overflow-hidden">
                 <div class="w-full m-auto px-[3rem] pt-11">
                     <h2 class="mb-[30px] text-[30px] text-center font-press-start text-yellow-primary">
-                        Sesiones - Modulo 01
+                        Modulo 01
                     </h2>
                     <p class="mb-[30px] text-[18px] text-center font-mulish">
                         <span>

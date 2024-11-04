@@ -11,12 +11,6 @@
             </div>
             <ul class="flex-grow w-full">
                 <li class="w-full mb-2">
-                    <a href="#" id="btn-introduccion"
-                        class="flex items-center p-2 text-white rounded-lg group w-full text-[25px]">
-                        <span class="ms-3">Introducción</span>
-                    </a>
-                </li>
-                <li class="w-full mb-2">
                     <a href="#" id="btn-unidad"
                         class="flex items-center p-2 text-white rounded-lg group w-full text-[25px]">
                         <span class="ms-3">Unidad</span>
@@ -32,16 +26,3 @@
         </div>
     </div>
 </div>
-
-<script>
-const links = document.querySelectorAll('.bg-profile-primary a');
-links.forEach(item => {
-    item.addEventListener('click', event => {
-        links.forEach(link => {
-            link.classList.remove('text-blue-500');
-            link.classList.add('text-white');
-        });
-        item.classList.add('text-blue-500');
-    });
-});
-</script>
