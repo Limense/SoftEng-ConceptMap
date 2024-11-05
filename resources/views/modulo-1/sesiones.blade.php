@@ -19,17 +19,17 @@
                             manera efectiva.
                         </span>
                     </p>
+                    <div class="pb-[20px]">
+                        <x-button href="{{ url('/') }}" bgColor="bg-green-primary" textColor="text-black"
+                            beforeColor="green-button">
+                            Ver módulos
+                        </x-button>
+                    </div>
                 </div>
             </div>
 
             @include('modulo-1.cards')
 
-            <div>
-                <x-button href="{{ url('/') }}" bgColor="bg-green-primary" textColor="text-black"
-                    beforeColor="green-button">
-                    Ver módulos
-                </x-button>
-            </div>
         </div>
     </div>
 </section>

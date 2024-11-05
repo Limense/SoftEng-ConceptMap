@@ -4,7 +4,8 @@
             <div class="flex items-center px-[.5rem] my-10">
                 <div class="px-[15px]">
                     <span class="font-bold text-[15px] text-center text-white font-press-start">
-                        CONCEPTOS DE CALIDAD, EVOLUCIÓN, MODELOS Y CRITERIOS DE CALIDAD DEL SOFTWARE
+                        NORMAS, ESTÁNDARES Y ORGANIZACIONES DE CALIDAD ISO,IEE,IEC PARA LA CALIDAD EN LAS ETAPAS DE
+                        DESARROLLO DEL SOFTWARE
                     </span>
                 </div>
             </div>

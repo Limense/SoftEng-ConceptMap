@@ -11,13 +11,13 @@
 
         <!-- Lado izquierdo -->
         <div class="flex flex-row">
-            @include('modulo-1.tema-02.sidebar')
+            @include('modulo-1.tema-03.sidebar')
 
             <!-- Lado derecho -->
             <div class="basis-[75%] max-w-[75%] relative w-full px-[15px]">
-                @include('modulo-1.tema-02.unidad')
+                @include('modulo-1.tema-03.unidad')
 
-                @include('modulo-1.tema-02.evaluacion')
+                @include('modulo-1.tema-03.evaluacion')
             </div>
         </div>
     </div>

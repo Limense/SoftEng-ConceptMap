@@ -39,9 +39,9 @@
                         </h5>
                     </a>
                     <p class="mb-[50px] font-normal text-white dark:text-gray-400">
-                        Sé un analista de las ventajas e importancia de la ingeniería de software.
+                        Construyendo sistemas que superan expectativas y optimizan el rendimiento.
                     </p>
-                    <x-button href="{{ route('modulo1.tema1') }}" bgColor="bg-skyblue-primary" textColor="text-white"
+                    <x-button href="{{ route('modulo1.tema2') }}" bgColor="bg-skyblue-primary" textColor="text-white"
                         beforeColor="sky-button">
                         Iniciar
                     </x-button>
@@ -63,9 +63,9 @@
                         </h5>
                     </a>
                     <p class="mb-[50px] font-normal text-white dark:text-gray-400">
-                        Sé un analista de las ventajas e importancia de la ingeniería de software.
+                        Herramientas que transforman la planificación y el desarrollo de software en éxito.
                     </p>
-                    <x-button href="{{ route('modulo1.tema1') }}" bgColor="bg-skyblue-primary" textColor="text-white"
+                    <x-button href="{{ route('modulo1.tema3') }}" bgColor="bg-skyblue-primary" textColor="text-white"
                         beforeColor="sky-button">
                         Iniciar
                     </x-button>
@@ -89,7 +89,7 @@
                     <p class="mb-[50px] font-normal text-white dark:text-gray-400">
                         Sé un analista de las ventajas e importancia de la ingeniería de software.
                     </p>
-                    <x-button href="{{ route('modulo1.tema1') }}" bgColor="bg-skyblue-primary" textColor="text-white"
+                    <x-button href="{{ route('modulo1.tema4') }}" bgColor="bg-skyblue-primary" textColor="text-white"
                         beforeColor="sky-button">
                         Iniciar
                     </x-button>

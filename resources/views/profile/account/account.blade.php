@@ -1,6 +1,6 @@
 <section class="mb-[5rem] px-[240px] pt-[40px]">
     <form action="">
-        <div class="border-[2px] border-white box-border">
+        <div class="border-[1px] border-white box-border">
             <!-- Cabecera -->
             <div
                 class="bg-profile-primary box-border border-b-[1px] border-white flex items-center justify-center h-[60px]">
@@ -21,14 +21,14 @@
                                     NOMBRES
                                     <br>
                                     <input type="text"
-                                        class="w-[calc(100%-8px)] py-[.5rem] px-[1rem] m-1 mt-[15px] mb-6 text-sm border-2 border-solid border-white bg-profile-primary">
+                                        class="w-[calc(100%-8px)] py-[.5rem] px-[1rem] m-1 mt-[15px] mb-6 text-sm border-[1px] border-solid border-white bg-profile-primary">
                                 </label>
 
                                 <label for="lastname" class="">
                                     APELLIDOS
                                     <br>
                                     <input type="text"
-                                        class="w-[calc(100%-8px)] py-[.5rem] px-[1rem] m-1 mt-[15px] mb-6 text-sm border-2 border-solid border-white bg-profile-primary">
+                                        class="w-[calc(100%-8px)] py-[.5rem] px-[1rem] m-1 mt-[15px] mb-6 text-sm border-[1px] border-solid border-white bg-profile-primary">
                                 </label>
                             </div>
                             <div class="grid grid-cols-2">
@@ -36,14 +36,14 @@
                                     NOMBRE DE USUARIO
                                     <br>
                                     <input type="text"
-                                        class="w-[calc(100%-8px)] py-[.5rem] px-[1rem] m-1 mt-[15px] mb-6 text-sm border-2 border-solid border-white bg-profile-primary">
+                                        class="w-[calc(100%-8px)] py-[.5rem] px-[1rem] m-1 mt-[15px] mb-6 text-sm border-[1px] border-solid border-white bg-profile-primary">
                                 </label>
 
                                 <label for="lastname" class="">
                                     CORREO ELECTRÓNICO
                                     <br>
                                     <span
-                                        class="w-[calc(100%-8px)] py-[.5rem] px-[1rem] m-1 mt-[15px] mb-6 text-sm border-2 border-solid border-secondary bg-profile-secondary block text-primary">
+                                        class="w-[calc(100%-8px)] py-[.5rem] px-[1rem] m-1 mt-[15px] mb-6 text-sm border-[1px] border-solid border-secondary bg-[#adafbc] block text-primary">
                                         pierodanielllanossanchez@gmail.com
                                     </span>
                                 </label>
@@ -72,20 +72,20 @@
                                 EDUCACIÓN
                                 <br>
                                 <input type="text"
-                                    class="w-[calc(100%-8px)] py-[.5rem] px-[1rem] m-1 mt-[15px] mb-6 text-sm border-2 border-solid border-white bg-profile-primary">
+                                    class="w-[calc(100%-8px)] py-[.5rem] px-[1rem] m-1 mt-[15px] mb-6 text-sm border-[1px] border-solid border-white bg-profile-primary">
                             </label>
                             <label for="work" class="">
                                 TRABAJO
                                 <br>
                                 <input type="text"
-                                    class="w-[calc(100%-8px)] py-[.5rem] px-[1rem] m-1 mt-[15px] mb-6 text-sm border-2 border-solid border-white bg-profile-primary">
+                                    class="w-[calc(100%-8px)] py-[.5rem] px-[1rem] m-1 mt-[15px] mb-6 text-sm border-[1px] border-solid border-white bg-profile-primary">
                             </label>
                         </div>
                         <label for="bio" class="">
                             BIOGRAFÍA
                             <br>
                             <textarea name="" id=""
-                                class="w-[calc(100%-8px)] py-[.5rem] px-[1rem] m-1 mt-[15px] mb-6 text-sm border-2 border-solid border-white bg-profile-primary"></textarea>
+                                class="w-[calc(100%-8px)] py-[.5rem] px-[1rem] m-1 mt-[15px] mb-6 text-sm border-[1px] border-solid border-white bg-profile-primary"></textarea>
                         </label>
                     </div>
                 </div>

@@ -8,7 +8,10 @@
                         class="w-full h-full object-cover rounded-[25px">
                     <div
                         class="h-[120px] w-[120px] absolute rounded-[50%] -bottom-[23px] left-[30px] border-[3px] border-secondary overflow-hidden bg-white">
+                        <img src="https://lh3.googleusercontent.com/a/ACg8ocJRr2MWdIsMmw0L41BcHWWMpPL3PSiHUzWGtkmUn5ccVlGDqg=s96-c"
+                            alt="Descripción de la imagen" class="h-full w-full object-cover rounded-[50%]" />
                     </div>
+
                 </div>
 
                 <div class="flex flex-row justify-between items-center relative mt-[35px] mx-[30px] mb-auto">

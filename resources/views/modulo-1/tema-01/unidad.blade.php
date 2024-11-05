@@ -3,7 +3,7 @@
         <div
             class="border-2 border-secondary rounded-[25px] text-white flex flex-col items-center gap-[0.5rem] pt-[30px] font-press-start w-full box-border">
             <p class="text-[30px] text-center">INTRODUCCION</p>
-            <span class="text-[18px] text-skyblue-primary font-mulish text-center p-10">
+            <span class="text-[18px] text-skyblue-primary font-mulish text-center px-10 py-6">
                 La ingeniería de Software surge en los años 60 por la crisis del software por la
                 necesidad de mejorar la calidad, fiabilidad y el costo de los proyectos de software. La
                 Ingeniería de Software buscó abordar estos problemas mediante enfoques sistemáticos. Su

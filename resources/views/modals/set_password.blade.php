@@ -5,7 +5,7 @@
     <div class="fixed inset-0 bg-black bg-opacity-70"></div> <!-- Fondo oscuro -->
     <div class="relative p-4 w-full max-w-md max-h-full">
         <!-- Modal content -->
-        <div class="relative bg-primary border-[2px] border-white rounded-lg shadow dark:bg-gray-700">
+        <div class="relative bg-primary border-[1px] border-white rounded-lg shadow dark:bg-gray-700">
             <!-- Modal header -->
             <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
                 <h3 class="text-xl font-semibold text-white font-press-start">
@@ -31,7 +31,7 @@
                         </label>
                         <div class="relative mb-6">
                             <input type="password" name="password" id="password"
-                                class="w-full py-2 pr-10 pl-4 text-sm border-2 border-solid border-white bg-profile-primary rounded"
+                                class="w-full py-2 pr-10 pl-4 text-sm border-[1px] border-solid border-white bg-profile-primary rounded"
                                 placeholder="Ingresa contraseña segura"
                                 x-bind:type="showPassword ? 'text' : 'password'">
                             <button type="button" @click="showPassword = !showPassword"
@@ -57,7 +57,7 @@
                         </label>
                         <div class="relative mb-10">
                             <input type="password" name="confirm-password" id="confirm-password"
-                                class="w-full py-2 pr-10 pl-4 text-sm border-2 border-solid border-white bg-profile-primary rounded"
+                                class="w-full py-2 pr-10 pl-4 text-sm border-[1px] border-solid border-white bg-profile-primary rounded"
                                 placeholder="Ingresa otra vez tu contraseña segura"
                                 x-bind:type="showConfirmPassword ? 'text' : 'password'">
                             <button type="button" @click="showConfirmPassword = !showConfirmPassword"
