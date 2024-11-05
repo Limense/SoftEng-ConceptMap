@@ -10,13 +10,14 @@
                     </h2>
                     <p class="mb-[30px] text-[18px] text-center font-mulish">
                         <span>
-                            Este módulo de Ingeniería de Software se compone de cuatro sesiones que cubren los aspectos
-                            clave del desarrollo de software, desde los principios fundamentales hasta la implementación
-                            y
-                            el aseguramiento de calidad. Cada sesión está diseñada para brindar conocimientos prácticos
-                            y
-                            teóricos, fortaleciendo las habilidades necesarias para gestionar proyectos de software de
-                            manera efectiva.
+                            En esta sesión, analizaremos los fundamentos de la ingeniería de software, centrándonos en
+                            su origen, objetivos y principios. Exploraremos los conceptos de calidad y su evolución, así
+                            como los modelos que guían la evaluación del software. También discutiremos las herramientas
+                            de planificación y desarrollo que facilitan la implementación efectiva del software.
+                            Finalmente, abordaremos las normas y estándares de calidad, como los establecidos por ISO,
+                            IEEE e IEC, que son esenciales para asegurar la calidad en cada etapa del desarrollo del
+                            software. Este enfoque integral nos permitirá comprender la relevancia de estos temas en la
+                            creación de productos de software confiables y eficientes.
                         </span>
                     </p>
                     <div class="pb-[20px]">
