@@ -1,3 +1,6 @@
+# aprendizaje profundo basado en una arquitectura de red neuronal
+# LSTM (Long Short-Term Memory).
+
 import json
 import numpy as np
 import tensorflow as tf
@@ -37,7 +40,7 @@ X = tokenizer.texts_to_sequences(texts)
 X = pad_sequences(X, maxlen=max_len)
 y = tf.keras.utils.to_categorical(labels)
 
-# Construcción del modelo
+# Construcción del modelo - arquitectura secuencial de Keras:
 model = Sequential()
 model.add(Embedding(input_dim=max_words, output_dim=embedding_dim, input_length=max_len))
 model.add(LSTM(64, return_sequences=True))
