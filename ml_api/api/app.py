@@ -9,16 +9,16 @@ import random
 app = Flask(__name__)
 
 # Cargar el modelo de aprendizaje profundo entrenado previamente
-model = load_model('modelo_chatbot.h5')
+model = load_model('../model/modelo_chatbot.h5')
 
 # Cargar las etiquetas (labels) correspondientes a las predicciones del modelo
-with open('labels_chatbot.json', 'r') as f:
+with open('../model/labels_chatbot.json', 'r') as f:
     labels = json.load(f)
 
 # procesar las preguntas
-with open('tokenizer_chatbot.pickle', 'rb') as f:
+with open('../model/tokenizer_chatbot.pickle', 'rb') as f:
     tokenizer = pickle.load(f)
-with open('intents.json', 'r', encoding='utf-8') as f:
+with open('../model/train/intents.json', 'r', encoding='utf-8') as f:
     intents = json.load(f)
 
 

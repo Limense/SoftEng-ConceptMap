@@ -8,8 +8,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ml_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ml_api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamLit/chatbot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamLit/front.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intents.json" beforeDir="false" afterPath="$PROJECT_DIR$/model/train/intents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labels_chatbot.json" beforeDir="false" afterPath="$PROJECT_DIR$/model/labels_chatbot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelo_chatbot.h5" beforeDir="false" afterPath="$PROJECT_DIR$/model/modelo_chatbot.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tokenizer_chatbot.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/model/tokenizer_chatbot.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/train/train_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +43,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -58,10 +67,19 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\is-mconcept-mc\ml_api\model\train" />
+      <recent name="C:\laragon\www\is-mconcept-mc\ml_api\api" />
+      <recent name="C:\laragon\www\is-mconcept-mc\ml_api\Train" />
+      <recent name="C:\laragon\www\is-mconcept-mc\ml_api\model" />
+      <recent name="C:\laragon\www\is-mconcept-mc\ml_api\streamLit" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.test">
     <configuration name="ml_api" type="PythonConfigurationType" factoryName="Python">
       <module name="ml_api" />
@@ -77,7 +95,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="SCRIPT_NAME" value="C:\laragon\www\is-mconcept-mc\ml_api\api\app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,6 +154,9 @@
       <workItem from="1730219335451" duration="9861000" />
       <workItem from="1730866758564" duration="4548000" />
       <workItem from="1730907473451" duration="5221000" />
+      <workItem from="1731469589881" duration="278000" />
+      <workItem from="1731469881820" duration="3537000" />
+      <workItem from="1731479787811" duration="3820000" />
     </task>
     <servers />
   </component>

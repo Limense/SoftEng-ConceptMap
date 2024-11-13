@@ -348,16 +348,20 @@
                 const message = $('#message').val();
                 if (!message) return;
 
+                // Añade el mensaje del usuario a la interfaz
                 appendMessage(message, 'user');
+                // Se limpia el input y se enfoca
                 $('#message').val('').focus();
 
                 // Envío de la pregunta al servidor
                 $.post('/chatbot/send', { question: message })
                     .done(function(response) {
+                        // Muestra la respuesta del bot
                         appendMessage(response.response, 'bot');
                         scrollToBottom();
                     })
                     .fail(function(xhr) {
+                        // Manejos de errores
                         let errorMessage = 'Ha ocurrido un error.';
                         if (xhr.responseJSON && xhr.responseJSON.message) {
                             errorMessage = xhr.responseJSON.message;
