@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap");
+@import "@fortawesome/fontawesome-free/css/all.min.css";
 
 /* styles/globals.css */
 @tailwind base;
@@ -9,11 +10,16 @@
 
 /* Aplicar cursor personalizado a toda la página */
 * {
-    cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFklEQVRYR9WXURLDIAhE6/0PbSdOtUpcd1Gnpv1KGpTHBpCE1/cXq+vrMph7dGvXZTtpfW10DCA5jrH1H0Jhs5E0hnZdCR+vb5S8Nn8mQCeS9BdSalYJqMBjAGzq59xAESN7VFVUgV8AZB/dZBR7QTFDCqGquvUBVVoEtgIwpQRzmANSFHgWQKExHdIrPeuMvQNDarXe6nC/AutgV3JW+6bgqQLeV8FekRtgV+ToDKEKnACYKsfZjjkam7a0ZpYTytwmgainpC3HvwBocgKOxqRjehoR9DFKNFYtOwCGYCszobeCbl26N6yyQ6g8X/Wex/rBPsNEV6qAMaJPMynIHQCoSqS9JSMmwef51LflTgCRszU7DvAGiV6mHWfsaVUAAAAASUVORK5CYII='), auto; 
+    cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFklEQVRYR9WXURLDIAhE6/0PbSdOtUpcd1Gnpv1KGpTHBpCE1/cXq+vrMph7dGvXZTtpfW10DCA5jrH1H0Jhs5E0hnZdCR+vb5S8Nn8mQCeS9BdSalYJqMBjAGzq59xAESN7VFVUgV8AZB/dZBR7QTFDCqGquvUBVVoEtgIwpQRzmANSFHgWQKExHdIrPeuMvQNDarXe6nC/AutgV3JW+6bgqQLeV8FekRtgV+ToDKEKnACYKsfZjjkam7a0ZpYTytwmgainpC3HvwBocgKOxqRjehoR9DFKNFYtOwCGYCszobeCbl26N6yyQ6g8X/Wex/rBPsNEV6qAMaJPMynIHQCoSqS9JSMmwef51LflTgCRszU7DvAGiV6mHWfsaVUAAAAASUVORK5CYII="),
+        auto;
 }
 
-a, button, input, textarea {
-    cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC'), auto !important; 
+a,
+button,
+input,
+textarea {
+    cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC"),
+        auto !important;
 }
 
 /* Colores para sombra de botones */
@@ -23,10 +29,10 @@ a, button, input, textarea {
         position: absolute;
         width: 100%;
         height: 0;
-        bottom: -10px; 
+        bottom: -10px;
         left: 0;
-        border: 5px solid transparent; 
-        border-top-color: black; 
+        border: 5px solid transparent;
+        border-top-color: black;
         transition: border 0.25s ease;
     }
 
@@ -35,10 +41,10 @@ a, button, input, textarea {
         position: absolute;
         width: 100%;
         height: 0;
-        bottom: -10px; 
+        bottom: -10px;
         left: 0;
-        border: 5px solid transparent; 
-        border-top-color: #BB0116; 
+        border: 5px solid transparent;
+        border-top-color: #bb0116;
         transition: border 0.25s ease;
     }
 
@@ -47,10 +53,10 @@ a, button, input, textarea {
         position: absolute;
         width: 100%;
         height: 0;
-        bottom: -10px; 
+        bottom: -10px;
         left: 0;
-        border: 5px solid transparent; 
-        border-top-color: #CA8A04; 
+        border: 5px solid transparent;
+        border-top-color: #ca8a04;
         transition: border 0.25s ease;
     }
 
@@ -59,10 +65,10 @@ a, button, input, textarea {
         position: absolute;
         width: 100%;
         height: 0;
-        bottom: -10px; 
+        bottom: -10px;
         left: 0;
-        border: 5px solid transparent; 
-        border-top-color: #006bb3; 
+        border: 5px solid transparent;
+        border-top-color: #006bb3;
         transition: border 0.25s ease;
     }
 
@@ -71,10 +77,10 @@ a, button, input, textarea {
         position: absolute;
         width: 100%;
         height: 0;
-        bottom: -10px; 
+        bottom: -10px;
         left: 0;
-        border: 5px solid transparent; 
-        border-top-color: #4d7c0f; 
+        border: 5px solid transparent;
+        border-top-color: #4d7c0f;
         transition: border 0.25s ease;
     }
     .white-button::before {
@@ -82,12 +88,10 @@ a, button, input, textarea {
         position: absolute;
         width: 100%;
         height: 0;
-        bottom: -10px; 
+        bottom: -10px;
         left: 0;
-        border: 5px solid transparent; 
-        border-top-color: #adafbc; 
+        border: 5px solid transparent;
+        border-top-color: #adafbc;
         transition: border 0.25s ease;
     }
 }
-
-

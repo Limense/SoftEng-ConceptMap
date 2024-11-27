@@ -73,6 +73,25 @@ foreach ($temas as $index => $tema) {
     })->name("modulo1.tema" . ($index + 1)); 
 }
 
+// Ruta para cargar el módulo 2
+Route::get('/modulo-2', function () {
+    return view('modulo-2.index');
+})->name('modulo2.index');
+
+// Rutas para cargar los temas dentro del módulo 2
+$temas = [
+    'tema-05',
+    'tema-06',
+    'tema-07',
+    'tema-08',
+];
+
+foreach ($temas as $index => $tema) {
+    Route::get("/modulo-2/{$tema}", function () use ($tema) {
+        return view("modulo-2.{$tema}.index");
+    })->name("modulo2.tema" . ($index + 1)); 
+}
+
 // Rutas para el chatbot - Prefix para agrupar rutas, mantener el codigo legible
 Route::prefix('chatbot')->group(function () {
     //Ruta para cargar la vista del chatbot (GET).

@@ -25,7 +25,7 @@
                 </article>
             </a>
 
-            <a href="{{ url('/modulo-1') }}">
+            <a href="{{ url('/modulo-2') }}">
                 <article
                     class="flex items-center relative rounded-[8px] bg-primary border-[3px] border-secondary p-4 h-[220px] shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
                     <img src="{{ asset('images/combusken.png') }}" alt="Descripción de la imagen"
@@ -40,7 +40,7 @@
                 </article>
             </a>
 
-            <a href="{{ url('/modulo-1') }}">
+            <a href="{{ url('/modulo-3') }}">
                 <article
                     class="flex items-center relative rounded-[8px] bg-primary border-[3px] border-secondary p-4 h-[220px] shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
                     <img src="{{ asset('images/blaziken.png') }}" alt="Descripción de la imagen"
@@ -55,7 +55,7 @@
                 </article>
             </a>
 
-            <a href="{{ url('/modulo-1') }}">
+            <a href="{{ url('/modulo-4') }}">
                 <article
                     class="flex items-center relative rounded-[8px] bg-primary border-[3px] border-secondary p-4 h-[220px] shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
                     <img src="{{ asset('images/mega_blaziken.png') }}" alt="Descripción de la imagen"
